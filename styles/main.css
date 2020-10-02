@@ -9,6 +9,10 @@ body,
   height: 100%;
 }
 
+button:focus {
+  outline: none;
+}
+
 .nav-link::before {
   background-color: #fff;
   content: '';
