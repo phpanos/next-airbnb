@@ -3,6 +3,7 @@ import Globe from  "../images/Globe"
 import ArrowDown from  "../images/ArrowDown"
 import Hamburger from  "../images/Hamburger"
 import ProfileImg from  "../images/ProfileImg"
+import PopupMenu from "../popup-menu/PopupMenu"
 
 export default function Nav() {
   return (
@@ -47,8 +48,9 @@ export default function Nav() {
         </ul>
       </nav>
 
-      <button className="bg-white flex rounded-full justify-between cursor-pointer pl-4 pr-2 items-center h-10">
+      <button className="bg-white flex rounded-full justify-between cursor-pointer pl-4 pr-2 items-center h-10 relative">
         <Hamburger />
+        <PopupMenu />
         <div className="ml-3 w-6 h-6">
           <ProfileImg />
         </div>

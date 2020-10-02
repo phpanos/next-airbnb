@@ -5,13 +5,27 @@ module.exports = {
   },
   purge: ['./pages/*.js', './components/*.js'],
   theme: {
-    backgroundPosition: {
-      'center-center': '50% 50%',
+    extend: {
+      width: {
+        '300': '300px',
+      },
+      minWidth: {
+        '150': '150px',
+      },
+      maxWidth: {
+        'content': 'max-content',
+      },
+      backgroundPosition: {
+        'center-center': '50% 50%',
+      },
+      opacity: {
+        '05': '.05',
+        '15': '.15',
+      },
+      inset: {
+        '100': '100%',
+      },
     },
-    opacity: {
-      '15': '.15',
-    },
-    extend: {},
   },
   variants: {},
   plugins: [],

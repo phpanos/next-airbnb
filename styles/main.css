@@ -10,7 +10,7 @@ body,
 }
 
 .nav-link::before {
-  background-color: white;
+  background-color: #fff;
   content: '';
   height: 2px;
   width: 0;
