@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Logo from '../components/images/Logo'
+import Nav from '../components/nav/Nav'
 
 export default function Home() {
   const imgUrl = '/img/bg.webp'
@@ -15,21 +15,7 @@ export default function Home() {
 
       <main className="w-full h-full">
         <div className="bg-no-repeat bg-cover bg-center-center bg-left-top bg-gray-400 w-full h-full" style={bgStyles}>
-          <div className="p-6 flex justify-between">
-            <Logo/>
-            <nav>
-              <ul>
-                <li><a href="" className="text-white">Bli värd</a></li>
-              </ul>
-            </nav>
-          </div>
-          <nav className="flex justify-center">
-            <ul className="flex">
-              <li><a href="" className="text-white p-4">Boenden</a></li>
-              <li><a href="" className="text-white p-4">Upplevelser</a></li>
-              <li><a href="" className="text-white p-4">Upplevelser över webben</a></li>
-            </ul>
-          </nav>
+          <Nav/>
         </div>
       </main>
     </div>

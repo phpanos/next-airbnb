@@ -8,6 +8,9 @@ module.exports = {
     backgroundPosition: {
       'center-center': '50% 50%',
     },
+    opacity: {
+      '15': '.15',
+    },
     extend: {},
   },
   variants: {},
